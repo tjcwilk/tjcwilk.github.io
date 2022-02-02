@@ -15,11 +15,25 @@ function load_articles(){
 
     
     for (var i = 0; i < files_list.length; i++) {
-        
-        console.log(files_list[i]);
-        var li = document.createElement("li");
-        li.appendChild(document.createTextNode( files_list[i] ));
-        articles_ul.appendChild(li);
+
+        if(files_list[i])
+        {
+            var filename = files_list[i];
+
+            var date = filename.split("_")[0];
+            var title_and_extension = filename.split("_")[1];
+            var title = title_and_extension.split(".")[0]
+            var article_url = `/articles/${filename}`;
+
+            var a = document.createElement('a');
+            var link_text = document.createTextNode(`${title}`);
+            a.appendChild(link_text);
+            a.href = article_url;
+
+            var li = document.createElement("li")         
+            li.appendChild(a);
+            articles_ul.appendChild(li);
+        }
 
     }
 
