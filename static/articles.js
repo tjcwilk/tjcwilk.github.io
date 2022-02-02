@@ -1,4 +1,4 @@
-function get_articles(){
+function load_articles(){
 
     var directory = "/articles";
     var xmlHttp = new XMLHttpRequest();

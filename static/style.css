@@ -1,26 +1,27 @@
+body{
+	font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	margin: auto;
+	padding:18px;
+	max-width: 600px;
+	font-size:18px;
+	text-align: left;
+	background-color: #f0f0f0;
+	position: relative;
+}
+
 a{
-	color: rgba(111, 111, 250, 0.829);
+	color: #30B0D0;
 }
 
 nav a, footer div a{
 	margin:0px 5px;
 }
 
-footer{
+#centre{
 	margin-top:40px;
 	text-align: center;
 }
 
-body{
-	font-family: Garamond, serif;
-	margin: auto;
-	padding:18px;
-	max-width: 600px;
-	font-size:18px;
-	text-align: left;
-	background-color:white;
-	position: relative;
-}
 
 .ph-banner{
 	font-family: Garamond, serif;

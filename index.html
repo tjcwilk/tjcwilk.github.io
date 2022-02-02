@@ -11,43 +11,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="/static/style.css">
+	<script type="text/javascript" src="/static/html_include.js"></script>
 
 </head>
 <body onload="includeHTML()">
 
-	<div w3-include-html="top.html"></div>
+	<div w3-include-html="/top.html"></div>
 
+	<div id="main">
 
+		<h1>Toby Wilkins</h1>
 
-	<h1>Toby Wilkins</h1>
-
-	<div class="row">
-		<div class="column">
-		  hello
-		</div>
-		<div class="column">
-		  <img src="/static/toby.jpg"  style="width:100%">
+		<p>
+			Hi, I’m Toby Wilkins. I’m a security architect, helping people protect themselves from cyber attacks. I’m into technology, gaming, playing basketball, hiking and traveling. I live in the mindlands, England.
+	
+			Welcome to my little spot on the internet, where I share my ramblings.
+		</p>
+	
+		
+		<div id="centre">
+			<p>Follow me:</p>
+			<div>
+				<a href="https://twitter.com/tjcwilk" target="_blank">Twitter</a>
+			</div>
+			<p><i>Email</i> <a href="mailto:toby@wilkins.io">toby@wilkins.io</a></p>
+			
 		</div>
 
 	</div>
 
-
-
-	<p>Hi, I’m Toby Wilkins. I’m a security architect, helping people protect themselves from cyber attacks. I’m into technology, gaming, playing basketball, hiking and traveling. I live in the mindlands, England.
-
-        Welcome to my little spot on the internet, where I share my ramblings.</p>
 	
-	<footer>
-		<p>Follow me:</p>
-		<div>
-			<a href="https://twitter.com/tjcwilk" target="_blank">Twitter</a>
-		</div>
-		<p><i>Contact me <a href="mailto:toby@wilkins.io">toby@wilkins.io</a></i></p>
-		
-
-	</footer>
-	<script type="text/javascript" src="/static/darktoggle.js">
-	</script>
+	<div w3-include-html="/bottom.html"></div>
 
 </body>
 </html>
