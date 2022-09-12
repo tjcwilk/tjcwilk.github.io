@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+
+    <channel>
+
+        <title>wilkins.io RSS feed</title>
+        <link>https://wilkins.io</link>
+        <description>The online home of Toby Wilkins</description>
+        <lastBuildDate>Mon, September 12 2022</lastBuildDate> 
+
+        <item>
+            <title>Top tips for staying safe online</title>
+            <link>https://wilkins.io/articles/20220105_top_tips_safe_online.html</link>
+            <guid>19572f4f-21c7-4e96-8cd1-774cace8a1a0</guid>
+            <description>I have worked in cyber security for 12+ years. If you'r a normal person looking to stay safe online, here are my top tips. They are simple and will go a long way. </description>
+            <pubDate>Wed, January 05 2022</pubDate>
+        </item>
+
+    </channel>
+    
+</rss>
