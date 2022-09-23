@@ -1,6 +1,7 @@
 body{
-	font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	margin: auto;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-weight: 100;
+    margin: auto;
 	padding:18px;
 	max-width: 600px;
 	font-size:18px;
