@@ -5,12 +5,17 @@ body{
 	max-width: 600px;
 	font-size:18px;
 	text-align: left;
-	background-color:#ffffff;
+    color: #e6dab2;
+	background-color:#2b2b2b;
 	position: relative;
 }
 
+h1{
+    color: #ffb400;
+}
+
 a{
-	color: #30B0D0;
+	color: #337ab7;
 }
 
 nav a, footer div a{
@@ -60,7 +65,7 @@ img, video{
 	width: 50%;
 	padding: 5px;
 }
-  
+
   /* Clear floats after image containers */
 .row::after {
 	content: "";
