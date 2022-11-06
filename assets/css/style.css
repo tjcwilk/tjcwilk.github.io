@@ -1,0 +1,40 @@
+---
+---
+
+body{
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-weight: 100;
+    margin: auto;
+	padding:18px;
+	max-width: 600px;
+	font-size:18px;
+	text-align: left;
+    color: #e6dab2;
+	background-color:#2b2b2b;
+	position: relative;
+}
+
+h1{
+    color: #ffb400;
+}
+
+a{
+	color: #337ab7;
+}
+nav a, footer div a{
+	margin:0px 5px;
+}
+
+.current {
+    color: #ffb400;
+}
+
+#centre{
+	margin-top:40px;
+	text-align: center;
+}
+
+img, video{
+	max-width: 600px;
+    height:auto;
+}

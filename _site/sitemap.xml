@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/2022/01/05/stay-safe-online.html</loc>
+<lastmod>2022-01-05T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/04/03/why-i-ditched-wordpress.html</loc>
+<lastmod>2022-04-03T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bookshelf.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/cyber_security.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+</urlset>
