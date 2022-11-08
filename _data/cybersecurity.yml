@@ -1,0 +1,69 @@
+Websites:
+  - title: The Register
+    link: https://www.theregister.com/security/
+    comment: Great security news website, if you can get over the snarky language. 
+  - title: The Record
+    link: https://therecord.media/
+    comment: A good generic cyber security news website. 
+  - title: Project Zero
+    link: https://googleprojectzero.blogspot.com/
+    comment: Hardcore technical write ups, of vulnerabilities and exploits on the cutting edge. 
+  - title: Citizen Lab
+    link: https://citizenlab.ca/
+    comment: Some great articles on tradecraft by threat actors. 
+
+Podcasts:
+  - title: Security Now
+    link: https://twit.tv/shows/security-now
+    comment: I have been listening to this podcast since I started university in 2007. 
+  - title: Risky Biz
+    link: https://risky.biz/netcasts/risky-business/
+    comment: Great breaif 20min updates each week, on the latest news. I tend to skip the rest. 
+  - title: Darknet Diaries
+    link: https://darknetdiaries.com/
+    comment: Great stories. I recommend starting with the 2 part ‘xbox underground’ episodes. 
+
+Books:
+  - title: Building secure & reliable systems at google
+    link: https://sre.google/books/
+    comment: A great book about security architecture at scale.
+  - title: The Pheonix Project
+    link: https://www.goodreads.com/en/book/show/17255186
+    comment: A must read novel about a problamatic IT organisatoon, and how it was turned around.
+  - title: Google Site Reliability Engineering
+    link: https://sre.google/books/
+    comment: This book describes how google approaches the task of managing there IT infrastructure at scale. 
+  - title: A bug hunters diary
+    link: https://www.goodreads.com/en/book/show/12746081
+    comment: Follow how a security researcher finds vulnerabilities
+  - title: Hacking, the art of exploitation
+    link: https://www.goodreads.com/book/show/61619.Hacking
+    comment: A bit out of date, but a must read intro to memory corruption vulnerabilities.
+
+Articles:
+  - title: A linux back door attempt
+    link: https://freedom-to-tinker.com/2013/10/09/the-linux-backdoor-attempt-of-2003/
+  - title: A guide to threat modelling
+    link: https://martinfowler.com/articles/agile-threat-modelling.html
+  - title: Chinas great cannon
+    link: https://citizenlab.ca/2015/04/chinas-great-cannon/
+  - title: The untold story of NotPetya
+    link: https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/
+  - title: A git horror story
+    link: https://mikegerwitz.com/2012/05/a-git-horror-story-repository-integrity-with-signed-commits
+  - title: A zero day market case study
+    link: https://tsyrklevich.net/2015/07/22/hacking-team-0day-market/
+  - title: Inside the world of legacy IT systems
+    link: https://spectrum.ieee.org/inside-hidden-world-legacy-it-systems
+  - title: Fake COTS
+    link: https://sboots.ca/2020/09/16/fake-cots-and-the-one-day-rule/
+  - title: System design for advanced beginners
+    link: https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav
+  - title: Design docs at google
+    link: https://www.industrialempathy.com/posts/design-docs-at-google/
+  - title: Drawing good architecture diagrams
+    link: https://www.ncsc.gov.uk/blog-post/drawing-good-architecture-diagrams
+  - title: What is technical debt
+    link: https://18f.gsa.gov/2015/09/04/what-is-technical-debt/
+  - title: How to write technical posts
+    link: https://reasonablypolymorphic.com/blog/writing-technical-posts/?utm_medium=email&utm_source=hackernewsletter&utm_term=learn
