@@ -8,7 +8,7 @@ body {
     max-width: 40em;
     margin: 0 auto;
     padding: 5px;
-    font-family: Georgia, serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
     background-color: #fff;
@@ -29,13 +29,13 @@ label,
 div.blogparent,
 input[type="submit"],
 figcaption {
-    font-family: valkyrie_c4;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: normal;
     font-style: normal
 }
 
 span.url {
-    font-family: Georgia, serif;
+    font-family: inherit;
 }
 
 small,
