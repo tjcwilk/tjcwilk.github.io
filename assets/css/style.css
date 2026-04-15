@@ -206,6 +206,80 @@ body#home main section#photos img {
     display: inline
 }
 
+.social-links {
+    margin-top: 2em;
+}
+
+.social-links h2 {
+    margin-top: 0;
+    margin-bottom: 0.75em;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    margin-bottom: 0.75em;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.9em;
+    padding: 0.9em 1em;
+    border: 1px solid #d9e1ea;
+    border-radius: 14px;
+    background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
+    box-shadow: 0 8px 24px rgba(17, 24, 39, 0.06);
+    color: #111;
+}
+
+.social-links a:visited {
+    color: #111;
+}
+
+.social-links a:hover {
+    text-decoration: none;
+    border-color: #b8c7d9;
+    box-shadow: 0 12px 28px rgba(17, 24, 39, 0.1);
+}
+
+.social-icon {
+    flex: 0 0 2.5em;
+    width: 2.5em;
+    height: 2.5em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background: #111;
+    color: #fff;
+}
+
+.social-icon svg {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.social-copy {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.social-copy strong {
+    font-size: 1rem;
+}
+
+.social-copy small {
+    margin-top: 0.2em;
+    color: #5b6470;
+    font-size: 0.82rem;
+}
+
 div.blogparent {
     font-size: 1.2em;
     margin: 1em 0 -0.5em 0
