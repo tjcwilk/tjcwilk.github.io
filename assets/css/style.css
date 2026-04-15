@@ -56,12 +56,17 @@ header#masthead {
 }
 
 h1 {
-    font-size: 2em
+    font-size: 2em;
+    color: #0f5fcf
 }
 
 h2 a {
     color: #000;
     text-decoration: underline
+}
+
+h2 {
+    color: #1b63c9
 }
 
 h2,
@@ -363,6 +368,68 @@ body#home main section#photos img {
     color: #2f3842;
     font-size: 0.9rem;
     line-height: 1.45;
+}
+
+.post-index {
+    margin-top: 2em;
+}
+
+.post-index-feed {
+    margin: 0 0 0.75em 0;
+    font-size: 0.85rem;
+}
+
+.post-index ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-index li {
+    margin-bottom: 1em;
+}
+
+.post-index a {
+    display: block;
+    padding: 1em 1.1em;
+    border: 1px solid #dfe6ef;
+    border-radius: 14px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    color: #111;
+    box-shadow: 0 10px 24px rgba(17, 24, 39, 0.05);
+}
+
+.post-index a:visited {
+    color: #111;
+}
+
+.post-index a:hover {
+    text-decoration: none;
+    border-color: #c2d1e2;
+    box-shadow: 0 14px 30px rgba(17, 24, 39, 0.08);
+}
+
+.post-index strong,
+.post-index small,
+.post-index span {
+    display: block;
+}
+
+.post-index strong {
+    font-size: 1.02rem;
+}
+
+.post-index small {
+    margin-top: 0.2em;
+    color: #5b6470;
+    font-size: 0.8rem;
+}
+
+.post-index span {
+    margin-top: 0.5em;
+    color: #2f3842;
+    font-size: 0.92rem;
+    line-height: 1.5;
 }
 
 div.blogparent {
