@@ -53,12 +53,18 @@ title: Home
     <h2 id="latest-posts-heading">Latest Blog Posts</h2>
     <ul>
         {% for post in site.posts limit:3 %}
+        {% assign rendered_post = post.content | markdownify %}
+        {% assign preview_html = rendered_post %}
+        {% if rendered_post contains '</h2>' %}
+        {% assign preview_html = rendered_post | split: '</h2>' | last %}
+        {% endif %}
         <li>
-            <a href="{{ post.url }}">
+            <article class="post-preview-card">
                 <strong>{{ post.title }}</strong>
                 <small>{{ post.date | date: "%B %-d, %Y" }}</small>
-                <span>{{ post.excerpt | strip_html | truncate: 120 }}</span>
-            </a>
+                <span>{{ preview_html | strip_html | strip_newlines | truncate: 140 }}</span>
+                <a class="read-more" href="{{ post.url }}">Read more..</a>
+            </article>
         </li>
         {% endfor %}
     </ul>
